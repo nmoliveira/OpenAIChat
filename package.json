@@ -1,0 +1,31 @@
+{
+  "name": "openaichat",
+  "version": "1.0.0",
+  "description": "Simple chatbot powered by OpenAI",
+  "main": "chat.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmoliveira/OpenAIChat.git"
+  },
+  "keywords": [
+    "chatbot",
+    "openai"
+  ],
+  "author": "Nuno Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmoliveira/OpenAIChat/issues"
+  },
+  "homepage": "https://github.com/nmoliveira/OpenAIChat#readme",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "openai": "^4.26.0"
+  },
+  "overrides": {
+    "whatwg-url": "13.0.0"
+  }
+}
